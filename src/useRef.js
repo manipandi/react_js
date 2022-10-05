@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import ReactDOM from "react-dom/client";
 
-function UseRef() {
+export default function UseRef() {
   const [inputValue, setInputValue] = useState("");
   const previousInputValue = useRef("");
 
