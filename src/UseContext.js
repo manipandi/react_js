@@ -1,5 +1,5 @@
 function Component1() {
-    const [user, setUser] = useState("Jesse Hall");
+    const [user, setUser] = useState("Test user");
   
     return (
       <>
