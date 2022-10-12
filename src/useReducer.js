@@ -29,7 +29,7 @@ const reducer = (state, action) => {
   }
 };
 
-function Todos() {
+export default function Todos() {
     const [todos, dispatch] = useReducer(reducer, initialTodos);
   
     const handleComplete = (todo) => {
