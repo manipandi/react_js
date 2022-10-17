@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';  
 
-const useDocumentTitle = title => {  
+const value  = title => {  
     useEffect(() => {  
       document.title = title;  
     }, [title])  
@@ -10,9 +10,6 @@ function CustomCounter() {
     const [count, setCount] = useState(0);  
     const incrementCount = () => setCount(count + 1);  
     useDocumentTitle(`You clicked ${count} times`);  
-    // useEffect(() => {  
-    //   document.title = `You clicked ${count} times`  
-    // });  
     
     return (  
       <div>  
